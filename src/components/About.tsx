@@ -1,6 +1,7 @@
 'use client'
 
-import { section } from 'framer-motion/client';
+// import { section } from 'framer-motion/client';
+import {motion} from 'framer-motion'
 import { FileCode, Flame, Globe, Code2, BadgeCheck, Braces, GitBranch } from 'lucide-react';
 
 function Tech({ name, icon: Icon }: { name: string; icon?: React.ElementType }) {
@@ -14,7 +15,10 @@ function Tech({ name, icon: Icon }: { name: string; icon?: React.ElementType }) 
 
 export default function About(){
   return(
-    <section className="max-w-4xl mx-auto py-16 px-4" id='about'>
+    <motion.section className="max-w-4xl mx-auto py-16 px-4" id='about' initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true }}>
       <h2 className="text-3xl font-bold mb-6 text-center">About me</h2>
       <p className="text-gray-700 text-lg leading-7 mb-6">I'm <strong>Mohd Amir Baig</strong>, a passionate web developer with a focus on fast, and scalable web applications. I specialize in technologies like <strong>React</strong>,
         <strong> Next.js</strong>, <strong>Tailwind CSS</strong>, <strong>TypeScript</strong>, and
@@ -38,6 +42,6 @@ export default function About(){
           <Tech name="Git & GitHub" icon={GitBranch} />
           <Tech name="Vercel" icon={Globe} />
         </div>
-    </section>
+    </motion.section>
   )
 }
