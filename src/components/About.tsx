@@ -1,6 +1,5 @@
 'use client'
 
-// import { section } from 'framer-motion/client';
 import {motion} from 'framer-motion'
 import { FileCode, Flame, Globe, Code2, BadgeCheck, Braces, GitBranch } from 'lucide-react';
 
@@ -22,8 +21,8 @@ export default function About(){
       <h2 className="text-3xl font-bold mb-6 text-center">About me</h2>
       <p className="text-gray-700 text-lg leading-7 mb-6">I'm <strong>Mohd Amir Baig</strong>, a passionate web developer with a focus on fast, and scalable web applications. I specialize in technologies like <strong>React</strong>,
         <strong> Next.js</strong>, <strong>Tailwind CSS</strong>, <strong>TypeScript</strong>, and
-        <strong> Firebase</strong>. I've built real-world projects like an eCommerce store and a tour
-        booking website, and I’m actively looking for opportunities to contribute to professional teams.</p>
+        <strong> Firebase</strong>. I have built real-world projects like an eCommerce store and a tour
+        booking website, and I am actively looking for opportunities to contribute to professional teams.</p>
 
         <p className="text-gray-700 text-lg leading-7 mb-10">
           My goal is to solve real-world problems using web technologies and continuously grow as a full-stack

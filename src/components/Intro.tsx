@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Github, Mail, FileText } from 'lucide-react';
+import { Github, FileText } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Hero() {

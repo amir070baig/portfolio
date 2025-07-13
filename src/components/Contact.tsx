@@ -1,6 +1,5 @@
 'use client'
 
-import { section } from "framer-motion/client"
 import { Github, Linkedin, Mail, FileText } from "lucide-react"
 import Link from 'next/link'
 
@@ -10,7 +9,7 @@ export default function Contact(){
       <h2 className="text-3xl font-bold mb-6">Contact</h2>
 
       <p className="text-gray-600 mb-8">
-        Let’s connect! Whether you have an opportunity, a project idea, or just want to say hello —
+        Let us connect! Whether you have an opportunity, a project idea, or just want to say hello —
         feel free to reach out.
       </p>
 
