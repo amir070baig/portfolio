@@ -19,7 +19,7 @@ export default function About(){
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}>
       <h2 className="text-3xl font-bold mb-6 text-center">About me</h2>
-      <p className="text-gray-700 text-lg leading-7 mb-6">I'm <strong>Mohd Amir Baig</strong>, a passionate web developer with a focus on fast, and scalable web applications. I specialize in technologies like <strong>React</strong>,
+      <p className="text-gray-700 text-lg leading-7 mb-6">I am <strong>Mohd Amir Baig</strong>, a passionate web developer with a focus on fast, and scalable web applications. I specialize in technologies like <strong>React</strong>,
         <strong> Next.js</strong>, <strong>Tailwind CSS</strong>, <strong>TypeScript</strong>, and
         <strong> Firebase</strong>. I have built real-world projects like an eCommerce store and a tour
         booking website, and I am actively looking for opportunities to contribute to professional teams.</p>
