@@ -3,7 +3,7 @@
 A professional portfolio website built with Next.js and Tailwind CSS.
 
 ## 🔗 Live Site
-https://your-vercel-site.vercel.app
+https://portfolio-theta-amber-koyhojntwu.vercel.app/
 
 ## 🛠 Tech Stack
 - Next.js (App Router)
