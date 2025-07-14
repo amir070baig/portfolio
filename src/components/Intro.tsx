@@ -29,10 +29,10 @@ export default function Hero() {
         <Link href="mailto:your-email@example.com" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
           Contact Me
         </Link>
-        <Link href="/resume.pdf" className="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300" target="_blank">
+        <a href="/resume.pdf" rel='noopener' className="bg-gray-200 text-gray-800 px-4 py-2 rounded hover:bg-gray-300" target="_blank">
           <FileText className="inline-block mr-2" size={18} />
           Resume
-        </Link>
+        </a>
         <Link href="https://github.com/amir070baig" target="_blank" className="text-gray-600 hover:text-black">
           <Github size={28} />
         </Link>
