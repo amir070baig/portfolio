@@ -40,6 +40,11 @@ export default function About(){
           <Tech name="Firebase" icon={Flame} />
           <Tech name="Git & GitHub" icon={GitBranch} />
           <Tech name="Vercel" icon={Globe} />
+          <Tech name="Express.js" icon={Globe} />
+          <Tech name="Node.js" icon={Globe} />
+          <Tech name="Prisma ORM" icon={Globe} />
+          <Tech name="PostgreSQL" icon={Globe} />
+          <Tech name="OpenAI" icon={Globe} />
         </div>
     </motion.section>
   )
